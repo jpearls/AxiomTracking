@@ -56,7 +56,7 @@ code {
 <p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 
 
-<p><br />Page rendered in {elapsed_time} seconds</p>
+<p><br />Page rendered in {elapsed_time} seconds test</p>
 
 </body>
 </html>
