@@ -126,11 +126,11 @@ if ( ! function_exists('quotes_to_entities'))
  * Converts double slashes in a string to a single slash,
  * except those found in http://
  *
- * http://www.some-site.com//index.php
+ * http://www.some-site.com//main.php
  *
  * becomes:
  *
- * http://www.some-site.com/index.php
+ * http://www.some-site.com/main.php
  *
  * @access	public
  * @param	string

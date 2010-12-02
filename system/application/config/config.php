@@ -11,19 +11,19 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://example.com/";
+$config['base_url']	= "http://localhost/AxiomTracking";
 
 /*
 |--------------------------------------------------------------------------
 | Index File
 |--------------------------------------------------------------------------
 |
-| Typically this will be your index.php file, unless you've renamed it to
+| Typically this will be your main.php file, unless you've renamed it to
 | something else. If you are using mod_rewrite to remove the page set this
 | variable so that it is blank.
 |
 */
-$config['index_page'] = "index.php";
+$config['index_page'] = "main.php";
 
 /*
 |--------------------------------------------------------------------------
@@ -141,7 +141,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |
 | The other items let you set the query string "words" that will
 | invoke your controllers and its functions:
-| example.com/index.php?c=controller&m=function
+| example.com/main.php?c=controller&m=function
 |
 | Please note that some of the helpers won't work as expected when
 | this feature is enabled, since CodeIgniter is designed primarily to

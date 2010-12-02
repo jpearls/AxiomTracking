@@ -37,12 +37,12 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "localhost";
-$db['default']['username'] = "";
-$db['default']['password'] = "";
-$db['default']['database'] = "";
+$db['default']['hostname'] = "192.168.1.9";
+$db['default']['username'] = "root";
+$db['default']['password'] = "fradmin";
+$db['default']['database'] = "AxiomTracking";
 $db['default']['dbdriver'] = "mysql";
-$db['default']['dbprefix'] = "";
+$db['default']['dbprefix'] = "atr_";
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;

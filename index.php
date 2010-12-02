@@ -79,7 +79,7 @@ else
 |---------------------------------------------------------------
 |
 | EXT		- The file extension.  Typically ".php"
-| SELF		- The name of THIS file (typically "index.php")
+| SELF		- The name of THIS file (typically "main.php")
 | FCPATH	- The full server path to THIS file
 | BASEPATH	- The full server path to the "system" folder
 | APPPATH	- The full server path to the "application" folder
@@ -114,5 +114,5 @@ else
 */
 require_once BASEPATH.'codeigniter/CodeIgniter'.EXT;
 
-/* End of file index.php */
-/* Location: ./index.php */
+/* End of file main.php */
+/* Location: ./main.php */
